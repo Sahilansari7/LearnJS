@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sahil</title>
+</head>
+<body style="background-color: #212121; color: #fff">
+    <ul class="nickname">
+        <li> ZEIN </li>
+    </ul>
+
+
+    <script>
+// const addtext = document.createTextNode("SUP BUDDY")
+// sahil.appendChild(addtext)
+// document.body.appendChild(sahil)
+
+function addname(pass){
+const li = document.createElement("li")
+        li.appendChild(document.createTextNode(pass))
+        document.querySelector('.nickname').appendChild(li)
+
+
+}
+
+addname("sah")
+addname("ays")
+addname("hil")
+addname("ysa")
+
+
+const zein= document.querySelector("li:nth-child(2)")
+// console.log(zein);
+zein.replaceWith("beb")
+
+const ysa=document.querySelector("li:last-child")
+ysa.remove()
+
+
+
+const parent= document.querySelector(".nickname")
+console.log(parent);
+console.log(parent.children[1].innerText);
+parent.children[0].style.color="green"
+parent.children[0].style.backgroundColor="red"
+parent.children[0].style.radius="609px"
+
+
+
+
+    </script>
+</body>
+</html>

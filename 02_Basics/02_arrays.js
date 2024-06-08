@@ -1,10 +1,10 @@
 const marvel_heros = ["Thor", "Ironman", "Spiderman"];
 const dc_heros = ["Superman", "Flash", "BAtman"];
 
-// marvel_heros.push(dc_heros); //push lmade total of three arrays "array bhitra array"
+// marvel_heros.push(dc_heros); //push made total of three arrays "array bhitra array"
 // console.log(marvel_heros);
 
-const allheros = [...marvel_heros, ...dc_heros]; // ... this method is pread method where all arrays get merge in one
+const allheros = [...marvel_heros, ...dc_heros]; // ... this method is read method where all arrays get merge in one
 console.log(allheros);
 
 const another_array = [1, 2, 3, [4, 5, 6], 7, [6, 7, [4, 5]]];
