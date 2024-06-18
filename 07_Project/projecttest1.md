@@ -4,7 +4,7 @@
 [Click Here ](https://stackblitz.com/edit/stackblitz-starters-ngbabr?description=HTML/CSS/JS%20Starter&file=01_TapColourChanger%2Fscript.js,01_TapColourChanger%2Findex.html,01_TapColourChanger%2Fstyles.css&terminalHeight=10&title=Static%20Starter)
 
 # Solution Code
-## Project 1
+## Project 1 - Tap Colour Changer
 ``` javasacript
 console.log("Sahil")
 
@@ -35,7 +35,7 @@ buttons.forEach(function(button){
 ```
 
 
-## project 2
+## project 2  BMI Generator
 ``` javascript
 const form = document.querySelector('form')
 // console.log(form)
@@ -61,7 +61,7 @@ form.addEventListener('submit',function(e){
 
 ```
 
-## Project 3
+## Project 3  Digital Clock
 ```
 javascript
 const clock = document.getElementById('clock');
@@ -76,7 +76,7 @@ setInterval(function () {
 
 ```
 
-## Project 4
+## Project 4 Guess the correct number
 
 ```
 let randomNumber = parseInt(Math.random() * 100 + 1);
